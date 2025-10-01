@@ -1,4 +1,5 @@
 # 📂 Notice 
+A simple scraper tool for CricHD. The name, logo and channel id for the channels will be dumped in a json file. For educational purposes.
 
 ![Personal Use](https://img.shields.io/badge/Personal-Use-blue)
 ![Education Only](https://img.shields.io/badge/Education-Only-green)
