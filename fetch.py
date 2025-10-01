@@ -2,6 +2,7 @@ import json
 from datetime import datetime
 from playwright.sync_api import sync_playwright
 
+# চ্যানেল লিস্ট
 CHANNELS = [
     {"code": "ptv", "tvg-id": "ptvpk", "tvg-logo": "https://upload.wikimedia.org/wikipedia/en/7/72/PTV_Sports.png", "name": "PTV Sports"},
     {"code": "sonyten1", "tvg-id": "sonyten1", "tvg-logo": "", "name": "Sony Ten 1"},
@@ -14,6 +15,9 @@ CHANNELS = [
 ]
 
 def fetch_m3u8(channel_code):
+    """
+    Page open + video play + network capture
+    """
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
@@ -26,28 +30,40 @@ def fetch_m3u8(channel_code):
                 m3u8_url = url
 
         page.on("response", log_response)
-        page.goto(f"https://streamcrichd.com/update/{channel_code}.php", timeout=60000)
-        page.wait_for_selector("video")
-        page.evaluate("() => { const v=document.querySelector('video'); if(v)v.play(); }")
-        page.wait_for_timeout(10000)
-        browser.close()
 
+        page.goto(f"https://streamcrichd.com/update/{channel_code}.php", timeout=60000)
+
+        # video play চেষ্টা
+        try:
+            page.wait_for_selector("video", timeout=5000)  # 5 সেকেন্ড
+            page.evaluate("() => { const v=document.querySelector('video'); if(v)v.play(); }")
+        except:
+            pass
+
+        # network capture জন্য wait
+        page.wait_for_timeout(8000)  # 8 সেকেন্ড
+        browser.close()
         return m3u8_url
 
 def main():
     result = []
     for ch in CHANNELS:
-        url = fetch_m3u8(ch["code"])
-        ch_data = {
-            "tvg-id": ch["tvg-id"],
-            "tvg-logo": ch["tvg-logo"],
-            "name": ch["name"],
-            "url": url
-        }
-        result.append(ch_data)
+        try:
+            url = fetch_m3u8(ch["code"])
+            ch_data = {
+                "tvg-id": ch["tvg-id"],
+                "tvg-logo": ch["tvg-logo"],
+                "name": ch["name"],
+                "url": url
+            }
+            result.append(ch_data)
+        except Exception as e:
+            print(f"❌ Error fetching {ch['name']}: {e}")
 
-    # return data as string
+    # JSON তৈরি
     data_str = json.dumps({"last_update": datetime.utcnow().isoformat(), "channels": result}, indent=2)
+    
+    # M3U তৈরি
     m3u_str = "#EXTM3U\n"
     for ch in result:
         if ch.get("url"):
