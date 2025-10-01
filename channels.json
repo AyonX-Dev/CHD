@@ -1,0 +1,10 @@
+[
+  {"code": "ptv", "tvg-id": "ptvpk", "tvg-logo": "https://m.media-amazon.com/images/I/21h60OobgjL.jpg", "name": "PTV Sports"},
+  {"code": "sonyten1", "tvg-id": "sonyten1", "tvg-logo": "https://m.media-amazon.com/images/I/21h60OobgjL.jpg", "name": "Sony Ten 1"},
+  {"code": "willowcricket", "tvg-id": "willowcricket", "tvg-logo": "https://m.media-amazon.com/images/I/21h60OobgjL.jpg", "name": "Willow Cricket"},
+  {"code": "tensp", "tvg-id": "tensp", "tvg-logo": "https://m.media-amazon.com/images/I/21h60OobgjL.jpg", "name": "Ten Sports Plus"},
+  {"code": "asportshd", "tvg-id": "asportshd", "tvg-logo": "https://m.media-amazon.com/images/I/21h60OobgjL.jpg", "name": "A Sports HD"},
+  {"code": "sonymax", "tvg-id": "sonymax", "tvg-logo": "https://m.media-amazon.com/images/I/21h60OobgjL.jpg", "name": "Sony Max"},
+  {"code": "sscricket", "tvg-id": "sscricket", "tvg-logo": "https://m.media-amazon.com/images/I/21h60OobgjL.jpg", "name": "Sony Six Cricket"},
+  {"code": "skys2", "tvg-id": "skys2", "tvg-logo": "https://m.media-amazon.com/images/I/21h60OobgjL.jpg", "name": "Sky Sports 2"}
+]
