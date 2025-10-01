@@ -1,17 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-id=ptvpk tvg-logo=https://upload.wikimedia.org/wikipedia/en/7/72/PTV_Sports.png, PTV Sports
-https://d9.merichunidya.com:1686/hls/ptvpk.m3u8?md5=dxlxH38oXhwC2zBZf84f3w&expires=1759317261
-#EXTINF:-1 tvg-id=sonyten1 tvg-logo=, Sony Ten 1
-https://d4.merichunidya.com:1686/hls/ten1hd.m3u8?md5=VOwpuzXaMdK4ih7xCvIy_Q&expires=1759317276
-#EXTINF:-1 tvg-id=willowcricket tvg-logo=, Willow Cricket
-https://d1.merichunidya.com:1686/hls/willowusa.m3u8?md5=oaKlpLSfyE_mtlRIvc-9IQ&expires=1759317290
-#EXTINF:-1 tvg-id=tensp tvg-logo=, Ten Sports Plus
-https://d5.merichunidya.com:1686/hls/tenspk.m3u8?md5=dg6eCOnkO9cAPHaEPGEfuw&expires=1759317304
-#EXTINF:-1 tvg-id=asportshd tvg-logo=, A Sports HD
-https://d9.merichunidya.com:1686/hls/asportshd.m3u8?md5=BkOXnLvLKb6i8pHhkar-Iw&expires=1759317318
-#EXTINF:-1 tvg-id=sonymax tvg-logo=, Sony Max
-https://d5.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=TwpLgn5T9t43kq3E8R3O3Q&expires=1759317333
-#EXTINF:-1 tvg-id=sscricket tvg-logo=, Sony Six Cricket
-https://d10.merichunidya.com:1686/hls/supercricket.m3u8?md5=TgvNh_iZtBYXDgTm5t956A&expires=1759317347
-#EXTINF:-1 tvg-id=skys2 tvg-logo=, Sky Sports 2
-https://d7.merichunidya.com:1686/hls/skyscric.m3u8?md5=MT-kvaIsSj8ZvMNV2C0xTA&expires=1759317361
+#EXTINF:-1 tvg-id=ptvpk tvg-logo=https://m.media-amazon.com/images/I/21h60OobgjL.jpg, PTV Sports
+https://d3.merichunidya.com:1686/hls/ptvpk.m3u8?md5=4egLCQbtS63gi_ezaZL_Fg&expires=1759318464
+#EXTINF:-1 tvg-id=sonyten1 tvg-logo=https://m.media-amazon.com/images/I/21h60OobgjL.jpg, Sony Ten 1
+https://d9.merichunidya.com:1686/hls/ten1hd.m3u8?md5=7ur6CZzYA0P-ilI6wtqPnw&expires=1759318479
+#EXTINF:-1 tvg-id=willowcricket tvg-logo=https://m.media-amazon.com/images/I/21h60OobgjL.jpg, Willow Cricket
+https://d7.merichunidya.com:1686/hls/willowusa.m3u8?md5=mR0ym0SUpidKdeVJSr4HjQ&expires=1759318493
+#EXTINF:-1 tvg-id=tensp tvg-logo=https://m.media-amazon.com/images/I/21h60OobgjL.jpg, Ten Sports Plus
+https://d3.merichunidya.com:1686/hls/tenspk.m3u8?md5=7JqISVyfNrQCc3KHkSaBUQ&expires=1759318507
+#EXTINF:-1 tvg-id=asportshd tvg-logo=https://m.media-amazon.com/images/I/21h60OobgjL.jpg, A Sports HD
+https://d5.merichunidya.com:1686/hls/asportshd.m3u8?md5=OkYyB1_U6EhBF65JlF4FRg&expires=1759318521
+#EXTINF:-1 tvg-id=sonymax tvg-logo=https://m.media-amazon.com/images/I/21h60OobgjL.jpg, Sony Max
+https://d9.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=xyu1rUE7W2vm622fYoozqw&expires=1759318535
+#EXTINF:-1 tvg-id=sscricket tvg-logo=https://m.media-amazon.com/images/I/21h60OobgjL.jpg, Sony Six Cricket
+https://d5.merichunidya.com:1686/hls/supercricket.m3u8?md5=ndx54vz9-Nr_UbpuS2-FJw&expires=1759318550
+#EXTINF:-1 tvg-id=skys2 tvg-logo=https://m.media-amazon.com/images/I/21h60OobgjL.jpg, Sky Sports 2
+https://d2.merichunidya.com:1686/hls/skyscric.m3u8?md5=1Ww6NimNkONwBoqQhp41Iw&expires=1759318564
