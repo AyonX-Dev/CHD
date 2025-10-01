@@ -6,5 +6,10 @@
   {"code": "asportshd", "tvg-id": "asportshd", "tvg-logo": "", "name": "A Sports HD"},
   {"code": "sonymax", "tvg-id": "sonymax", "tvg-logo": "", "name": "Sony Ten 3"},
   {"code": "sscricket", "tvg-id": "sscricket", "tvg-logo": "", "name": "Super Cricket"},
-  {"code": "skys2", "tvg-id": "skys2", "tvg-logo": "", "name": "Sky Sports 2"}
+  {"code": "skys2", "tvg-id": "skys2", "tvg-logo": "", "name": "Sky Sports 2"},
+  {"code": "espn", "tvg-id": "btsp4", "tvg-logo": "", "name": "TNT Sports 4"},
+  {"code": "bteu", "tvg-id": "btsp3", "tvg-logo": "", "name": "TNT Sports 3"},
+  {"code": "bt1", "tvg-id": "btsp1", "tvg-logo": "", "name": "TNT Sports 1"},
+  {"code": "bt2", "tvg-id": "skys2", "tvg-logo": "", "name": "TNT Sports 2"}
+
 ]
