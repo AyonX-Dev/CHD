@@ -1,3 +1,4 @@
+import os
 import asyncio
 import json
 from datetime import datetime, timezone
@@ -6,6 +7,9 @@ from playwright.async_api import async_playwright
 CHANNELS_FILE = "channels.json"
 JSON_FILE = "playlist.json"
 M3U_FILE = "playlist.m3u"
+
+
+BASE_URL = os.getenv("STREAM_URL")
 
 async def fetch_channel(ch):
     async with async_playwright() as p:
@@ -20,7 +24,9 @@ async def fetch_channel(ch):
                 m3u8_url = url
 
         page.on("response", log_response)
-        await page.goto(f"https://streamcrichd.com/update/{ch['code']}.php", timeout=60000)
+
+        
+        await page.goto(f"{BASE_URL}{ch['code']}.php", timeout=60000)
 
         try:
             await page.wait_for_selector("video", timeout=5000)
