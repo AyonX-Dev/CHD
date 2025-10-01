@@ -2,7 +2,7 @@ name: Update Playlist
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # প্রতি 10 মিনিটে রান করবে
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -19,9 +19,19 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          playwright install chromium
+        run: pip install -r requirements.txt
+
+      # Playwright browser cache
+      - name: Cache Playwright Browsers
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright
+          restore-keys: |
+            ${{ runner.os }}-playwright
+
+      - name: Install Playwright
+        run: playwright install --with-deps chromium
 
       - name: Run fetch.py
         run: python fetch.py
