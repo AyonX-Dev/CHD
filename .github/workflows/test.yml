@@ -5,6 +5,9 @@ on:
     - cron: '*/10 * * * *' # প্রতি 10 মিনিটে
   workflow_dispatch:
 
+permissions:
+  contents: write  # repo write permission লাগবে commit করতে
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -27,15 +30,22 @@ jobs:
           python fetch.py > output.log
           JSON=$(awk '/JSON_START/{flag=1;next}/JSON_END/{flag=0}flag' output.log)
           M3U=$(awk '/M3U_START/{flag=1;next}/M3U_END/{flag=0}flag' output.log)
-          echo "::set-output name=json::$JSON"
-          echo "::set-output name=m3u::$M3U"
+
+          # Environment file ব্যবহার করে GitHub Actions step output
+          echo "json<<EOF" >> $GITHUB_ENV
+          echo "$JSON" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+          echo "m3u<<EOF" >> $GITHUB_ENV
+          echo "$M3U" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: Commit updated playlist
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          echo "${{ steps.fetch.outputs.json }}" > playlist.json
-          echo "${{ steps.fetch.outputs.m3u }}" > playlist.m3u
+          echo "${{ env.json }}" > playlist.json
+          echo "${{ env.m3u }}" > playlist.m3u
           git add playlist.json playlist.m3u
-          git commit -m "Auto-update playlist $(date -u)" || echo "No changes"
+          git diff --cached --quiet || git commit -m "Auto-update playlist $(date -u)"
           git push
