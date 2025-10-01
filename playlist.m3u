@@ -1,17 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-id=ptvpk tvg-logo=, PTV Sports
-https://d4.merichunidya.com:1686/hls/ptvpk.m3u8?md5=i66bjfEa5FvLU_pj4epiJA&expires=1759319497
-#EXTINF:-1 tvg-id=sonyten1 tvg-logo=, Sony Ten 1
-https://d8.merichunidya.com:1686/hls/ten1hd.m3u8?md5=r8SddDjDDPpu1n8y-0ZggQ&expires=1759319512
-#EXTINF:-1 tvg-id=willowcricket tvg-logo=, Willow Cricket
-https://d4.merichunidya.com:1686/hls/willowusa.m3u8?md5=8yMfGFrG8CnmncTPgmJuEg&expires=1759319527
-#EXTINF:-1 tvg-id=tensp tvg-logo=, Ten Sports PK
-https://d9.merichunidya.com:1686/hls/tenspk.m3u8?md5=XXvnTwruxVL73pu5wv60Kw&expires=1759319542
-#EXTINF:-1 tvg-id=asportshd tvg-logo=, A Sports HD
-https://d8.merichunidya.com:1686/hls/asportshd.m3u8?md5=9AWgzMZWKYm87uuMjJf87w&expires=1759319557
-#EXTINF:-1 tvg-id=sonymax tvg-logo=, Sony Ten 3
-https://d2.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=rNh4sQQfc3cIL2Z4z4MS3w&expires=1759319572
-#EXTINF:-1 tvg-id=sscricket tvg-logo=, Super Cricket
-https://d7.merichunidya.com:1686/hls/supercricket.m3u8?md5=UcZh54uiEJNEJqy-3mmkHQ&expires=1759319587
-#EXTINF:-1 tvg-id=skys2 tvg-logo=, Sky Sports 2
-https://d7.merichunidya.com:1686/hls/skyscric.m3u8?md5=ks68Or5SnWLTKoa4xQVAIA&expires=1759319602
+#EXTINF:-1 tvg-id="willowcricket" tvg-logo="", Willow Cricket
+https://d8.merichunidya.com:1686/hls/willowusa.m3u8?md5=2coK1u96-5Q2tWyTUy2_HQ&expires=1759321430
+#EXTINF:-1 tvg-id="asportshd" tvg-logo="", A Sports HD
+https://d2.merichunidya.com:1686/hls/asportshd.m3u8?md5=unjZ6CI6FLxPBkvF2G96ug&expires=1759321457
+#EXTINF:-1 tvg-id="sonymax" tvg-logo="", Sony Ten 3
+https://d3.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=tdNm_5WaR9HMSSmixQWHFA&expires=1759321471
+#EXTINF:-1 tvg-id="sscricket" tvg-logo="", Super Cricket
+https://d5.merichunidya.com:1686/hls/supercricket.m3u8?md5=lt_LmJ00QaYdbuXqrP2ZFg&expires=1759321485
+#EXTINF:-1 tvg-id="skys2" tvg-logo="", Sky Sports 2
+https://d3.merichunidya.com:1686/hls/skyscric.m3u8?md5=mKofTIRZ7lstdKDnOealyw&expires=1759321499
+#EXTINF:-1 tvg-id="btsp4" tvg-logo="", TNT Sports 4
+https://d6.merichunidya.com:1686/hls/bbtespn.m3u8?md5=l7u8N9ix7ays_zv880twEQ&expires=1759321513
+#EXTINF:-1 tvg-id="btsp3" tvg-logo="", TNT Sports 3
+https://d4.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=hyMso5e49EZ_AtlrTVPF8g&expires=1759321527
+#EXTINF:-1 tvg-id="btsp1" tvg-logo="", TNT Sports 1
+https://d6.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=MKUvecVKsd0aToc1CeBL7A&expires=1759321542

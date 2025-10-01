@@ -1,0 +1,77 @@
+{
+  "last_update": "2025-10-01T10:26:10.005259+00:00",
+  "channels": [
+    {
+      "tvg-id": "ptvpk",
+      "tvg-logo": "",
+      "name": "PTV Sports",
+      "url": null
+    },
+    {
+      "tvg-id": "sonyten1",
+      "tvg-logo": "",
+      "name": "Sony Ten 1",
+      "url": null
+    },
+    {
+      "tvg-id": "willowcricket",
+      "tvg-logo": "",
+      "name": "Willow Cricket",
+      "url": "https://d8.merichunidya.com:1686/hls/willowusa.m3u8?md5=2coK1u96-5Q2tWyTUy2_HQ&expires=1759321430"
+    },
+    {
+      "tvg-id": "tensp",
+      "tvg-logo": "",
+      "name": "Ten Sports PK",
+      "url": null
+    },
+    {
+      "tvg-id": "asportshd",
+      "tvg-logo": "",
+      "name": "A Sports HD",
+      "url": "https://d2.merichunidya.com:1686/hls/asportshd.m3u8?md5=unjZ6CI6FLxPBkvF2G96ug&expires=1759321457"
+    },
+    {
+      "tvg-id": "sonymax",
+      "tvg-logo": "",
+      "name": "Sony Ten 3",
+      "url": "https://d3.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=tdNm_5WaR9HMSSmixQWHFA&expires=1759321471"
+    },
+    {
+      "tvg-id": "sscricket",
+      "tvg-logo": "",
+      "name": "Super Cricket",
+      "url": "https://d5.merichunidya.com:1686/hls/supercricket.m3u8?md5=lt_LmJ00QaYdbuXqrP2ZFg&expires=1759321485"
+    },
+    {
+      "tvg-id": "skys2",
+      "tvg-logo": "",
+      "name": "Sky Sports 2",
+      "url": "https://d3.merichunidya.com:1686/hls/skyscric.m3u8?md5=mKofTIRZ7lstdKDnOealyw&expires=1759321499"
+    },
+    {
+      "tvg-id": "btsp4",
+      "tvg-logo": "",
+      "name": "TNT Sports 4",
+      "url": "https://d6.merichunidya.com:1686/hls/bbtespn.m3u8?md5=l7u8N9ix7ays_zv880twEQ&expires=1759321513"
+    },
+    {
+      "tvg-id": "btsp3",
+      "tvg-logo": "",
+      "name": "TNT Sports 3",
+      "url": "https://d4.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=hyMso5e49EZ_AtlrTVPF8g&expires=1759321527"
+    },
+    {
+      "tvg-id": "btsp1",
+      "tvg-logo": "",
+      "name": "TNT Sports 1",
+      "url": "https://d6.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=MKUvecVKsd0aToc1CeBL7A&expires=1759321542"
+    },
+    {
+      "tvg-id": "skys2",
+      "tvg-logo": "",
+      "name": "TNT Sports 2",
+      "url": null
+    }
+  ]
+}
