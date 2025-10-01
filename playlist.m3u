@@ -1,25 +1,25 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ptvpk" tvg-logo="", PTV Sports
-https://d9.merichunidya.com:1686/hls/ptvpk.m3u8?md5=Q9GVMLyuBY6TnWoXNPTuSg&expires=1759325379
+https://d3.merichunidya.com:1686/hls/ptvpk.m3u8?md5=9ZkQfYoB4pEEgYrIQb_vjQ&expires=1759326100
 #EXTINF:-1 tvg-id="sonyten1" tvg-logo="", Sony Ten 1
-https://d10.merichunidya.com:1686/hls/ten1hd.m3u8?md5=bPjnkVSIJ3fFx4OXPi0-6w&expires=1759325379
+https://d10.merichunidya.com:1686/hls/ten1hd.m3u8?md5=x1yUzXwHZUT68wZzg9hknw&expires=1759326100
 #EXTINF:-1 tvg-id="willowcricket" tvg-logo="", Willow Cricket
-https://d1.merichunidya.com:1686/hls/willowusa.m3u8?md5=JeJ8hFD2oH72dF7zbx1Ylg&expires=1759325379
+https://d9.merichunidya.com:1686/hls/willowusa.m3u8?md5=Cl0M1wOehSOS2RJ8J-0hZg&expires=1759326100
 #EXTINF:-1 tvg-id="tensp" tvg-logo="", Ten Sports PK
-https://d5.merichunidya.com:1686/hls/tenspk.m3u8?md5=cOTfCNNCaWLcriUa46-xrQ&expires=1759325379
+https://d2.merichunidya.com:1686/hls/tenspk.m3u8?md5=CDFOU1cL_UbYS6y6A-Q9ww&expires=1759326100
 #EXTINF:-1 tvg-id="asportshd" tvg-logo="", A Sports HD
-https://d5.merichunidya.com:1686/hls/asportshd.m3u8?md5=btwJwF4VckyXZGNRINpM-A&expires=1759325379
+https://d8.merichunidya.com:1686/hls/asportshd.m3u8?md5=GlSnk-nI4fRSRzLO21Vnhg&expires=1759326100
 #EXTINF:-1 tvg-id="sonymax" tvg-logo="", Sony Ten 3
-https://d3.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=_JdJswvawnuvUiz3VdmvCw&expires=1759325379
+https://d6.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=w3bD4mJ2I8eq5Ec0TJzbQQ&expires=1759326100
 #EXTINF:-1 tvg-id="sscricket" tvg-logo="", Super Cricket
-https://d1.merichunidya.com:1686/hls/supercricket.m3u8?md5=3UWRsyvGYAmYyBIykn-AQA&expires=1759325379
+https://d6.merichunidya.com:1686/hls/supercricket.m3u8?md5=EfVm63JHC8ibajVhP6EsmA&expires=1759326100
 #EXTINF:-1 tvg-id="skys2" tvg-logo="", Sky Sports 2
-https://d1.merichunidya.com:1686/hls/skyscric.m3u8?md5=FjLT81xxZP9zCvA946uuCg&expires=1759325379
+https://d10.merichunidya.com:1686/hls/skyscric.m3u8?md5=lDxhKdhkNR4EhbUl17uxgQ&expires=1759326100
 #EXTINF:-1 tvg-id="btsp4" tvg-logo="", TNT Sports 4
-https://d4.merichunidya.com:1686/hls/bbtespn.m3u8?md5=ORSQG2bBf6F4NHa7wRl7Xw&expires=1759325379
+https://d10.merichunidya.com:1686/hls/bbtespn.m3u8?md5=uuuCptsw4__4hm4HACi_XQ&expires=1759326100
 #EXTINF:-1 tvg-id="btsp3" tvg-logo="", TNT Sports 3
-https://d1.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=LW5kif5x2viFqPjM4hOEGg&expires=1759325379
+https://d6.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=B5Dl3R6cW89Ij9N_g3OGaA&expires=1759326100
 #EXTINF:-1 tvg-id="btsp1" tvg-logo="", TNT Sports 1
-https://d7.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=E2h2XsmJK4rxAerUJnUXiA&expires=1759325379
+https://d7.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=qLQKo7Zvy0HfmrR0FU9_zg&expires=1759326100
 #EXTINF:-1 tvg-id="skys2" tvg-logo="", TNT Sports 2
-https://d7.merichunidya.com:1686/hls/bbtsp2.m3u8?md5=iM_vDcfhzlHoTNazv0pLoA&expires=1759325379
+https://d2.merichunidya.com:1686/hls/bbtsp2.m3u8?md5=LOGHLswy41F0Uu20A0j9HQ&expires=1759326100
