@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright
 
 CHANNEL_INFO = {
     "tvg-id": "ptvpk",
-    "tvg-logo": "https://upload.wikimedia.org/wikipedia/en/7/72/PTV_Sports.png",
+    "tvg-logo": "https://upload-wikimedia-org.translate.goog/wikipedia/en/e/e4/PTV_Sports.png",
     "name": "PTV Sports"
 }
 
