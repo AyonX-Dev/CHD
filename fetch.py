@@ -1,7 +1,6 @@
-import asyncio
 import json
-from pyppeteer import launch
 from datetime import datetime
+from playwright.sync_api import sync_playwright
 
 CHANNEL_INFO = {
     "tvg-id": "ptvpk",
@@ -13,26 +12,26 @@ SOURCE_URL = "https://streamcrichd.com/update/ptv.php"
 JSON_FILE = "playlist.json"
 M3U_FILE = "playlist.m3u"
 
-async def fetch_m3u8():
-    browser = await launch(headless=True, args=["--no-sandbox"])
-    page = await browser.newPage()
-    m3u8_url = None
+def fetch_m3u8():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        m3u8_url = None
 
-    async def handle_response(resp):
-        nonlocal m3u8_url
-        url = resp.url
-        if ".m3u8" in url and "expires=" in url and "md5=" in url:
-            m3u8_url = url
+        def log_response(response):
+            nonlocal m3u8_url
+            url = response.url
+            if ".m3u8" in url and "md5=" in url and "expires=" in url:
+                m3u8_url = url
 
-    page.on("response", handle_response)
+        page.on("response", log_response)
+        page.goto(SOURCE_URL, timeout=60000)
+        page.wait_for_timeout(8000)  # 8 সেকেন্ড অপেক্ষা
+        browser.close()
 
-    await page.goto(SOURCE_URL, timeout=60000)
-    await page.waitForTimeout(8000)
-    await browser.close()
-
-    if not m3u8_url:
-        raise Exception("M3U8 লিঙ্ক পাওয়া যায়নি")
-    return m3u8_url
+        if not m3u8_url:
+            raise Exception("M3U8 URL পাওয়া যায়নি")
+        return m3u8_url
 
 def save_json(m3u8_url):
     data = {
@@ -58,10 +57,13 @@ def save_m3u(m3u8_url):
         f.write(content)
 
 def main():
-    m3u8_url = asyncio.get_event_loop().run_until_complete(fetch_m3u8())
-    print("✅ M3U8 Found:", m3u8_url)
-    save_json(m3u8_url)
-    save_m3u(m3u8_url)
+    try:
+        m3u8_url = fetch_m3u8()
+        print("✅ M3U8 Found:", m3u8_url)
+        save_json(m3u8_url)
+        save_m3u(m3u8_url)
+    except Exception as e:
+        print("❌ Error:", str(e))
 
 if __name__ == "__main__":
     main()
