@@ -1,37 +1,38 @@
-import requests
-import re
+ import asyncio
 import json
+from pyppeteer import launch
 from datetime import datetime
 
-# চ্যানেল ইনফো
 CHANNEL_INFO = {
     "tvg-id": "ptvpk",
     "tvg-logo": "https://upload.wikimedia.org/wikipedia/en/7/72/PTV_Sports.png",
     "name": "PTV Sports"
 }
 
-# সোর্স লিঙ্ক
 SOURCE_URL = "https://streamcrichd.com/update/ptv.php"
-
-# আউটপুট ফাইল
 JSON_FILE = "playlist.json"
 M3U_FILE = "playlist.m3u"
 
-def fetch_m3u8():
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                      "AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "Chrome/124.0.0.0 Safari/537.36"
-    }
-    r = requests.get(SOURCE_URL, headers=headers, timeout=15)
-    r.raise_for_status()
+async def fetch_m3u8():
+    browser = await launch(headless=True, args=["--no-sandbox"])
+    page = await browser.newPage()
+    m3u8_url = None
 
-    # Regex দিয়ে m3u8 বের করা
-    match = re.search(r"(https://[^\s'\"]+\.m3u8\?[^'\"]+)", r.text)
-    if match:
-        return match.group(1)
-    else:
-        raise Exception("M3U8 URL পাওয়া যায়নি")
+    async def handle_response(resp):
+        nonlocal m3u8_url
+        url = resp.url
+        if ".m3u8" in url and "expires=" in url and "md5=" in url:
+            m3u8_url = url
+
+    page.on("response", handle_response)
+
+    await page.goto(SOURCE_URL, timeout=60000)
+    await page.waitForTimeout(8000)
+    await browser.close()
+
+    if not m3u8_url:
+        raise Exception("M3U8 লিঙ্ক পাওয়া যায়নি")
+    return m3u8_url
 
 def save_json(m3u8_url):
     data = {
@@ -57,13 +58,10 @@ def save_m3u(m3u8_url):
         f.write(content)
 
 def main():
-    try:
-        m3u8_url = fetch_m3u8()
-        print("✅ M3U8 Found:", m3u8_url)
-        save_json(m3u8_url)
-        save_m3u(m3u8_url)
-    except Exception as e:
-        print("❌ Error:", str(e))
+    m3u8_url = asyncio.get_event_loop().run_until_complete(fetch_m3u8())
+    print("✅ M3U8 Found:", m3u8_url)
+    save_json(m3u8_url)
+    save_m3u(m3u8_url)
 
 if __name__ == "__main__":
     main()
