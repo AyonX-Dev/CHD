@@ -27,6 +27,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add -A   # <-- সব ফাইল add করবে, না থাকলেও error হবে না
+          git add -A
           git commit -m "Update playlist [skip ci]" || echo "No changes to commit"
           git push
