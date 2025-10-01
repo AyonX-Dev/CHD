@@ -1,77 +1,77 @@
 {
-  "last_update": "2025-10-01T10:30:25.142128+00:00",
+  "last_update": "2025-10-01T10:44:16.203935+00:00",
   "channels": [
     {
       "tvg-id": "ptvpk",
       "tvg-logo": "",
       "name": "PTV Sports",
-      "url": null
+      "url": "https://d1.merichunidya.com:1686/hls/ptvpk.m3u8?md5=GBbVCvHpsfooFi2-AYYt9A&expires=1759322640"
     },
     {
       "tvg-id": "sonyten1",
       "tvg-logo": "",
       "name": "Sony Ten 1",
-      "url": null
+      "url": "https://d1.merichunidya.com:1686/hls/ten1hd.m3u8?md5=Ak1O0tPrw2UuCyNp423Jpw&expires=1759322640"
     },
     {
       "tvg-id": "willowcricket",
       "tvg-logo": "",
       "name": "Willow Cricket",
-      "url": null
+      "url": "https://d6.merichunidya.com:1686/hls/willowusa.m3u8?md5=a0i_KMkAU5JXrixr6r06Pw&expires=1759322640"
     },
     {
       "tvg-id": "tensp",
       "tvg-logo": "",
       "name": "Ten Sports PK",
-      "url": null
+      "url": "https://d9.merichunidya.com:1686/hls/tenspk.m3u8?md5=fo1HNCLED0G5qlAje8H24g&expires=1759322640"
     },
     {
       "tvg-id": "asportshd",
       "tvg-logo": "",
       "name": "A Sports HD",
-      "url": null
+      "url": "https://d9.merichunidya.com:1686/hls/asportshd.m3u8?md5=lEfVS6b2uyKMXcBYefwquQ&expires=1759322640"
     },
     {
       "tvg-id": "sonymax",
       "tvg-logo": "",
       "name": "Sony Ten 3",
-      "url": null
+      "url": "https://d4.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=FpdbeIvaxgW6Izb9q9BzHA&expires=1759322640"
     },
     {
       "tvg-id": "sscricket",
       "tvg-logo": "",
       "name": "Super Cricket",
-      "url": null
+      "url": "https://d4.merichunidya.com:1686/hls/supercricket.m3u8?md5=4mVZev_NQcorN00QI_hqYA&expires=1759322640"
     },
     {
       "tvg-id": "skys2",
       "tvg-logo": "",
       "name": "Sky Sports 2",
-      "url": null
+      "url": "https://d7.merichunidya.com:1686/hls/skyscric.m3u8?md5=7W5h7UGUrYBRAndHBOn_HA&expires=1759322640"
     },
     {
       "tvg-id": "btsp4",
       "tvg-logo": "",
       "name": "TNT Sports 4",
-      "url": "https://d6.merichunidya.com:1686/hls/bbtespn.m3u8?md5=EjOJeaAqZ1_Vmyryhcm3nA&expires=1759321765"
+      "url": "https://d6.merichunidya.com:1686/hls/bbtespn.m3u8?md5=Mexm9ElI6Y5GzorvZzepmw&expires=1759322640"
     },
     {
       "tvg-id": "btsp3",
       "tvg-logo": "",
       "name": "TNT Sports 3",
-      "url": null
+      "url": "https://d7.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=CI_NN1JCrWf-j72bBhInAw&expires=1759322640"
     },
     {
       "tvg-id": "btsp1",
       "tvg-logo": "",
       "name": "TNT Sports 1",
-      "url": null
+      "url": "https://d6.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=gt5yXdrPh4fw93Ppr1RSKg&expires=1759322640"
     },
     {
       "tvg-id": "skys2",
       "tvg-logo": "",
       "name": "TNT Sports 2",
-      "url": null
+      "url": "https://d10.merichunidya.com:1686/hls/bbtsp2.m3u8?md5=P56vU35xd03Ar8SVUDcT9g&expires=1759322640"
     }
   ]
 }
