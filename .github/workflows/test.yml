@@ -1,66 +1,36 @@
 name: Update Playlist
-
 on:
   schedule:
-    - cron: '*/10 * * * *'  # প্রতি 10 মিনিটে run হবে
-  workflow_dispatch:          # ম্যানুয়ালি trigger করার জন্য
-
-permissions:
-  contents: write  # repo তে commit করার জন্য write permission
+    - cron: '*/10 * * * *' # প্রতি ১০ মিনিটে চালাবে
+  workflow_dispatch:
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
     steps:
-      # 1️⃣ Checkout repo
-      - uses: actions/checkout@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-      # 2️⃣ Setup Python
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.13"
+          python-version: '3.13'
 
-      # 3️⃣ Install dependencies
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
-          pip install playwright requests
-          playwright install chromium
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install
 
-      # 4️⃣ Run fetch.py and capture output
-      - name: Fetch M3U8 URLs
-        id: fetch
-        run: |
-          python fetch.py > output.log
+      - name: Fetch M3U8 & Update Files
+        run: python fetch.py
 
-          # Extract JSON and M3U blocks from output.log
-          JSON=$(awk '/JSON_START/{flag=1;next}/JSON_END/{flag=0}flag' output.log)
-          M3U=$(awk '/M3U_START/{flag=1;next}/M3U_END/{flag=0}flag' output.log)
-
-          # Export as environment variables safely
-          echo "json<<EOF" >> $GITHUB_ENV
-          echo "$JSON" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-
-          echo "m3u<<EOF" >> $GITHUB_ENV
-          echo "$M3U" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
-
-      # 5️⃣ Commit JSON + M3U back to repo safely
-      - name: Commit updated playlist
+      - name: Commit & Push
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-
-          # Safe writing using heredoc to handle spaces and special characters
-          cat <<EOF > playlist.json
-          ${{ env.json }}
-          EOF
-
-          cat <<EOF > playlist.m3u
-          ${{ env.m3u }}
-          EOF
-
           git add playlist.json playlist.m3u
-          git diff --cached --quiet || git commit -m "Auto-update playlist $(date -u)"
+          git commit -m "Auto-update playlist"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
