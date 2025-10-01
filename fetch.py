@@ -1,23 +1,14 @@
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 from playwright.sync_api import sync_playwright
 
-# চ্যানেল লিস্ট
-CHANNELS = [
-    {"code": "ptv", "tvg-id": "ptvpk", "tvg-logo": "https://upload.wikimedia.org/wikipedia/en/7/72/PTV_Sports.png", "name": "PTV Sports"},
-    {"code": "sonyten1", "tvg-id": "sonyten1", "tvg-logo": "", "name": "Sony Ten 1"},
-    {"code": "willowcricket", "tvg-id": "willowcricket", "tvg-logo": "", "name": "Willow Cricket"},
-    {"code": "tensp", "tvg-id": "tensp", "tvg-logo": "", "name": "Ten Sports Plus"},
-    {"code": "asportshd", "tvg-id": "asportshd", "tvg-logo": "", "name": "A Sports HD"},
-    {"code": "sonymax", "tvg-id": "sonymax", "tvg-logo": "", "name": "Sony Max"},
-    {"code": "sscricket", "tvg-id": "sscricket", "tvg-logo": "", "name": "Sony Six Cricket"},
-    {"code": "skys2", "tvg-id": "skys2", "tvg-logo": "", "name": "Sky Sports 2"}
-]
+CHANNELS_FILE = "channels.json"
+
+def load_channels():
+    with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def fetch_m3u8(channel_code):
-    """
-    Page open + video play + network capture
-    """
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
@@ -30,24 +21,23 @@ def fetch_m3u8(channel_code):
                 m3u8_url = url
 
         page.on("response", log_response)
-
         page.goto(f"https://streamcrichd.com/update/{channel_code}.php", timeout=60000)
 
-        # video play চেষ্টা
         try:
-            page.wait_for_selector("video", timeout=5000)  # 5 সেকেন্ড
+            page.wait_for_selector("video", timeout=5000)
             page.evaluate("() => { const v=document.querySelector('video'); if(v)v.play(); }")
         except:
             pass
 
-        # network capture জন্য wait
-        page.wait_for_timeout(8000)  # 8 সেকেন্ড
+        page.wait_for_timeout(8000)
         browser.close()
         return m3u8_url
 
 def main():
+    channels = load_channels()
     result = []
-    for ch in CHANNELS:
+
+    for ch in channels:
         try:
             url = fetch_m3u8(ch["code"])
             ch_data = {
@@ -60,10 +50,11 @@ def main():
         except Exception as e:
             print(f"❌ Error fetching {ch['name']}: {e}")
 
-    # JSON তৈরি
-    data_str = json.dumps({"last_update": datetime.utcnow().isoformat(), "channels": result}, indent=2)
-    
-    # M3U তৈরি
+    data_str = json.dumps({
+        "last_update": datetime.now(timezone.utc).isoformat(),
+        "channels": result
+    }, indent=2)
+
     m3u_str = "#EXTM3U\n"
     for ch in result:
         if ch.get("url"):
