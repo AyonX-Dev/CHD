@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -18,9 +19,11 @@ jobs:
           python-version: "3.x"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
 
-      - name: Run script
+      - name: Run fetch.py
         run: python fetch.py
 
       - name: Commit changes
