@@ -1,179 +1,179 @@
 {
-  "last_update": "2025-10-02T04:52:25.646875+00:00",
+  "last_update": "2025-10-02T05:10:30.365779+00:00",
   "channels": [
     {
       "tvg-id": "ptvpk",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "PTV Sports",
-      "url": "https://d2.merichunidya.com:1686/hls/ptvpk.m3u8?md5=odnsoiH2xpZiDRdTW-U2WQ&expires=1759387919"
+      "url": "https://d8.merichunidya.com:1686/hls/ptvpk.m3u8?md5=m4ZLn8myLLKzKCiWsUtjuQ&expires=1759389004"
     },
     {
       "tvg-id": "sonyten1",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Tony Sports 1",
-      "url": "https://d9.merichunidya.com:1686/hls/ten1hd.m3u8?md5=mZtFgPAULsj1YEqVjzbNgw&expires=1759387919"
+      "url": "https://d1.merichunidya.com:1686/hls/ten1hd.m3u8?md5=I2--GHOdazpuICtj937Z8A&expires=1759389005"
     },
     {
       "tvg-id": "willowusa",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Willow Cricket",
-      "url": "https://d7.merichunidya.com:1686/hls/willowusa.m3u8?md5=20gyTkrVU5pJT0X2Gy5GFA&expires=1759387919"
+      "url": "https://d2.merichunidya.com:1686/hls/willowusa.m3u8?md5=hMPhgE7pFYVmYO5dPn6N5w&expires=1759389004"
     },
     {
       "tvg-id": "tensp",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Ten Sports PK",
-      "url": "https://d2.merichunidya.com:1686/hls/tenspk.m3u8?md5=IcDL-XICuDVVqavSTix_hA&expires=1759387921"
+      "url": "https://d4.merichunidya.com:1686/hls/tenspk.m3u8?md5=IUb30uVwqG93Vj4JhS7iMw&expires=1759389004"
     },
     {
       "tvg-id": "asportshd",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "A Sports HD",
-      "url": "https://d10.merichunidya.com:1686/hls/asportshd.m3u8?md5=nxAXB1cpprDVyHGxseDF3A&expires=1759387919"
+      "url": "https://d4.merichunidya.com:1686/hls/asportshd.m3u8?md5=Ax4RwbzxRGBHAwlKeY6v9w&expires=1759389005"
     },
     {
       "tvg-id": "tonymax",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Tony Sports 3",
-      "url": "https://d7.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=wGIABfCIsxKed2dCqeFBOA&expires=1759387920"
+      "url": "https://d8.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=-uuykD5Euc9EPFbfZrTWrA&expires=1759389004"
     },
     {
       "tvg-id": "sscricket",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Super Cricket",
-      "url": "https://d5.merichunidya.com:1686/hls/supercricket.m3u8?md5=sw00LCXVJq4aDCFEiLh7lQ&expires=1759387920"
+      "url": "https://d7.merichunidya.com:1686/hls/supercricket.m3u8?md5=Qd-9kSgKtOZGTnFZRXmCyQ&expires=1759389005"
     },
     {
       "tvg-id": "skys2",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Sky Sports Cricket",
-      "url": "https://d2.merichunidya.com:1686/hls/skyscric.m3u8?md5=1_k6VKAwg2Fp51_6g7itMA&expires=1759387919"
+      "url": "https://d6.merichunidya.com:1686/hls/skyscric.m3u8?md5=QxPLgdqdke45cIJCKl6raw&expires=1759389005"
     },
     {
       "tvg-id": "btsp4",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 4",
-      "url": "https://d1.merichunidya.com:1686/hls/bbtespn.m3u8?md5=AYV2BIQo2MH5oUyz2aiXZg&expires=1759387919"
+      "url": "https://d8.merichunidya.com:1686/hls/bbtespn.m3u8?md5=qrdzPmcdld7tmWP8hctC0w&expires=1759389005"
     },
     {
       "tvg-id": "btsp3",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 3",
-      "url": "https://d2.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=0bYqr5QuhsgsIhMztwXA2Q&expires=1759387919"
+      "url": "https://d6.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=VPJi9_kJsVnRxHLhzkvplQ&expires=1759389004"
     },
     {
       "tvg-id": "btsp1",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 1",
-      "url": "https://d7.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=0cKaYdpv87W8K4MvsZtw8Q&expires=1759387919"
+      "url": "https://d1.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=mGXAR0u-5bYWPXCxqdgYtw&expires=1759389004"
     },
     {
       "tvg-id": "btsp2",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 2",
-      "url": "https://d5.merichunidya.com:1686/hls/bbtsp2.m3u8?md5=k_TFJxFanSoFw_Ugff_mdg&expires=1759387920"
+      "url": "https://d2.merichunidya.com:1686/hls/bbtsp2.m3u8?md5=-PlHuF07HxlH5IZpjyaOyw&expires=1759389004"
     },
     {
       "tvg-id": "willowextra",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Willow 2",
-      "url": "https://d5.merichunidya.com:1686/hls/willowextra.m3u8?md5=mrH4e-8uc66pH_nmEAovGg&expires=1759387920"
+      "url": "https://d9.merichunidya.com:1686/hls/willowextra.m3u8?md5=pJWGzwtZa3v3ZhmrP51X_w&expires=1759389004"
     },
     {
       "tvg-id": "fox501",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "FOX Cricket 501",
-      "url": "https://d5.merichunidya.com:1686/hls/fox501.m3u8?md5=v0415x1DzpJFOUtUNs8UvQ&expires=1759387919"
+      "url": "https://d1.merichunidya.com:1686/hls/fox501.m3u8?md5=t3Rumwegd1V6jId2f5Ag1w&expires=1759389004"
     },
     {
       "tvg-id": "skys1",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Sky Sports Main Event",
-      "url": "https://d10.merichunidya.com:1686/hls/skysme.m3u8?md5=JjwBGaBVRMLey9hOy9Bo-Q&expires=1759387919"
+      "url": "https://d4.merichunidya.com:1686/hls/skysme.m3u8?md5=kcOYKxC2JlYZWDko_5NAbg&expires=1759389005"
     },
     {
       "tvg-id": "viasp1",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "Via Play Sports 1",
-      "url": "https://d10.merichunidya.com:1686/hls/premieruk.m3u8?md5=GlTaOdp4973RMUUwmK0t-g&expires=1759387919"
+      "url": "https://d7.merichunidya.com:1686/hls/premieruk.m3u8?md5=zL6wT3rEZZrR2nUgj22XVg&expires=1759389004"
     },
     {
       "tvg-id": "btsp5",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "BT Sports 5",
-      "url": "https://d2.merichunidya.com:1686/hls/hdchnl10.m3u8?md5=W4XJHiPDrHoyvupSL7xAbQ&expires=1759387919"
+      "url": "https://d2.merichunidya.com:1686/hls/hdchnl10.m3u8?md5=-jc-Y-mU5KYZQ2SnDbaioQ&expires=1759389004"
     },
     {
       "tvg-id": "tara",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Tara Sports 1",
-      "url": "https://d5.merichunidya.com:1686/hls/star1in.m3u8?md5=FPJrHQZLib76adB6kOd0Ew&expires=1759387919"
+      "url": "https://d4.merichunidya.com:1686/hls/star1in.m3u8?md5=41xL2pXqRHooMxpYVp-QVw&expires=1759389005"
     },
     {
       "tvg-id": "tara1hi",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Tara Sports Hindi",
-      "url": "https://d10.merichunidya.com:1686/hls/starhindi.m3u8?md5=vJsQEhKr9tepItkHgCCdMg&expires=1759387920"
+      "url": "https://d1.merichunidya.com:1686/hls/starhindi.m3u8?md5=QylshCGoBP1fA3t8jiLdEw&expires=1759389005"
     },
     {
       "tvg-id": "sky1nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 1 NZ",
-      "url": "https://d1.merichunidya.com:1686/hls/sky1nz.m3u8?md5=fe4LCavND4P3LdOMr2y0hA&expires=1759387920"
+      "url": "https://d4.merichunidya.com:1686/hls/sky1nz.m3u8?md5=T-I-CW_ORLFXP_BkXJRJjQ&expires=1759389005"
     },
     {
       "tvg-id": "sky2nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 2 NZ",
-      "url": "https://d9.merichunidya.com:1686/hls/sky2nz.m3u8?md5=GqwTIjhfJ6UHFDL6R4UD6w&expires=1759387919"
+      "url": "https://d3.merichunidya.com:1686/hls/sky2nz.m3u8?md5=Mz_aRMZeAtMWgMp5dyQbYw&expires=1759389005"
     },
     {
       "tvg-id": "sky3nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 3 NZ",
-      "url": "https://d4.merichunidya.com:1686/hls/sky3nz.m3u8?md5=iorf2Qu3Kd0Amp3XNGuO-w&expires=1759387920"
+      "url": "https://d1.merichunidya.com:1686/hls/sky3nz.m3u8?md5=hMH5jD_qpyT87H7Ks7fi9w&expires=1759389004"
     },
     {
       "tvg-id": "sky4nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 4 NZ",
-      "url": "https://d10.merichunidya.com:1686/hls/sky4nz.m3u8?md5=52DKQVYc3aW5WyO8vqaZng&expires=1759387919"
+      "url": "https://d4.merichunidya.com:1686/hls/sky4nz.m3u8?md5=Jf1MSZgnPvMDm82T_PHHBw&expires=1759389005"
     },
     {
       "tvg-id": "sky5nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 5 NZ",
-      "url": "https://d2.merichunidya.com:1686/hls/sky5nz.m3u8?md5=HSewsxZVUKIGQgpG4dxpZg&expires=1759387920"
+      "url": "https://d4.merichunidya.com:1686/hls/sky5nz.m3u8?md5=iONeQjgu90MRs_2a4LlCyQ&expires=1759389004"
     },
     {
       "tvg-id": "sky6nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 6 NZ",
-      "url": "https://d9.merichunidya.com:1686/hls/sky6nz.m3u8?md5=9zKdwGatqZa7wZjIvbjq0g&expires=1759387919"
+      "url": "https://d7.merichunidya.com:1686/hls/sky6nz.m3u8?md5=00sOgbtu7MZXmWkrbnW-YQ&expires=1759389005"
     },
     {
       "tvg-id": "sky7nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 7 NZ",
-      "url": "https://d4.merichunidya.com:1686/hls/sky7nz.m3u8?md5=lZUBttyjuxPJoh07M0M_rQ&expires=1759387919"
+      "url": "https://d2.merichunidya.com:1686/hls/sky7nz.m3u8?md5=9Yn74Y6N-7aVndBImGXyhw&expires=1759389004"
     },
     {
       "tvg-id": "sky8nz",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sport 8 NZ",
-      "url": "https://d9.merichunidya.com:1686/hls/sky8nz.m3u8?md5=dznxHfbNqN52BdwyjkK9Ww&expires=1759387920"
+      "url": "https://d5.merichunidya.com:1686/hls/sky8nz.m3u8?md5=yYrzvvZ6wr7r-1r7ePC6Uw&expires=1759389004"
     },
     {
       "tvg-id": "laligauk",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": "LaLiga UK",
-      "url": "https://d6.merichunidya.com:1686/hls/laligauk.m3u8?md5=oAv9H2ZJz36FIIPHxnAxrA&expires=1759387919"
+      "url": "https://d6.merichunidya.com:1686/hls/laligauk.m3u8?md5=1p4MNyd5wKXr3D11CM8ZKw&expires=1759389004"
     },
     {
       "tvg-id": "skysfotb",
       "tvg-logo": "https://i.imgur.com/bmk7yJs.png",
       "name": " Sky Sports Football",
-      "url": "https://d8.merichunidya.com:1686/hls/skysfott.m3u8?md5=545AU2jY0Gk2_ckUvpL3_A&expires=1759387920"
+      "url": "https://d10.merichunidya.com:1686/hls/skysfott.m3u8?md5=HMs-87HTrFGe1PcUmOw_lw&expires=1759389005"
     },
     {
       "tvg-id": "hdchnl2",
