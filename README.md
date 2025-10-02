@@ -1,3 +1,9 @@
+<a href="https://t.me/Incognito_Brothers" target="_blank" rel="noopener">
+  <img src="https://img.shields.io/badge/Telegram-Join-green?logo=telegram&style=for-the-badge" alt="Join us on Telegram">
+</a>
+
+
+
 # 📂 Notice 
 A Simple Scraper Tool For **CricHD**. The Name, Logo And Channel ID For The Channels Will Be Dumped In A Json File. For Educational Purposes.
 
