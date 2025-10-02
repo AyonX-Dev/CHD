@@ -1,5 +1,5 @@
 # 📂 Notice 
-A simple scraper tool for CricHD. The name, logo and channel id for the channels will be dumped in a json file. For educational purposes.
+A Simple Scraper Tool For **CricHD**. The Name, Logo And Channel ID For The Channels Will Be Dumped In A Json File. For Educational Purposes.
 
 ![Personal Use](https://img.shields.io/badge/Personal-Use-blue)
 ![Education Only](https://img.shields.io/badge/Education-Only-green)
@@ -8,16 +8,16 @@ A simple scraper tool for CricHD. The name, logo and channel id for the channels
 ---
 
 ## ℹ️ About
-This repository has been created **for personal use and educational purposes**.
+This Repository Has Been Created **For Personal Use And Educational Purposes**.
 
 ---
 
 ## 🚀 Usage
-- Personal practice  
-- Learning & experimenting  
-- Educational reference  
+- Personal Practice  
+- Learning & Experimenting  
+- Educational Reference  
 
 ---
 
 ## ⚠️ Disclaimer
-This project is **not intended for commercial use**.
+This Project Is **Not Intended For Commercial Use**.
