@@ -1,4 +1,4 @@
-<a href="https://t.me/Incognito_Brothers" target="_blank" rel="noopener">
+<a href="https://t.me/+b17D46rrBAw0ZTM1" target="_blank" rel="noopener">
   <img src="https://img.shields.io/badge/Telegram-Join-green?logo=telegram&style=for-the-badge" alt="Join us on Telegram">
 </a>
 
