@@ -1,61 +1,61 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ptvpk" tvg-logo="https://i.imgur.com/bmk7yJs.png", PTV Sports
-https://d8.merichunidya.com:1686/hls/ptvpk.m3u8?md5=HRfYFKjT5e0deqDEL1xYsQ&expires=1759525111
+https://d2.merichunidya.com:1686/hls/ptvpk.m3u8?md5=0KW1d4AN2ay1qoULAQ-p_w&expires=1759526359
 #EXTINF:-1 tvg-id="sonyten1" tvg-logo="https://i.imgur.com/bmk7yJs.png", Tony Sports 1
-https://d5.merichunidya.com:1686/hls/ten1hd.m3u8?md5=P-hduVjlt89RQ3XlYSR9vg&expires=1759525111
+https://d5.merichunidya.com:1686/hls/ten1hd.m3u8?md5=QIGUyqZ27Jwtx4u7IrxOmw&expires=1759526360
 #EXTINF:-1 tvg-id="willowusa" tvg-logo="https://i.imgur.com/bmk7yJs.png", Willow Cricket
-https://d10.merichunidya.com:1686/hls/willowusa.m3u8?md5=MYAur1eNPk_umpKvurp4yQ&expires=1759525112
+https://d10.merichunidya.com:1686/hls/willowusa.m3u8?md5=4gWOgHCSjNVG59Uiad_cfQ&expires=1759526359
 #EXTINF:-1 tvg-id="tensp" tvg-logo="https://i.imgur.com/bmk7yJs.png", Ten Sports PK
-https://d7.merichunidya.com:1686/hls/tenspk.m3u8?md5=qpFTrkcOOLBwqXa_Qrtu7g&expires=1759525111
+https://d2.merichunidya.com:1686/hls/tenspk.m3u8?md5=E2ukkaUmw1tOGUldXC5ldg&expires=1759526359
 #EXTINF:-1 tvg-id="asportshd" tvg-logo="https://i.imgur.com/bmk7yJs.png", A Sports HD
-https://d8.merichunidya.com:1686/hls/asportshd.m3u8?md5=klauUV80xxd4P6WhOTXJLQ&expires=1759525112
+https://d5.merichunidya.com:1686/hls/asportshd.m3u8?md5=6wsJqBp2tmGeM1bi5ZdlZg&expires=1759526359
 #EXTINF:-1 tvg-id="tonymax" tvg-logo="https://i.imgur.com/bmk7yJs.png", Tony Sports 3
-https://d8.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=FIUssg3SBUoPz_LuAgw2BQ&expires=1759525111
+https://d10.merichunidya.com:1686/hls/sonyespnind.m3u8?md5=CejR3lEh-UQ6AQFEQsSY3Q&expires=1759526360
 #EXTINF:-1 tvg-id="sscricket" tvg-logo="https://i.imgur.com/bmk7yJs.png", Super Cricket
-https://d6.merichunidya.com:1686/hls/supercricket.m3u8?md5=i5SL6uN09E_GwQQly71xEQ&expires=1759525113
+https://d6.merichunidya.com:1686/hls/supercricket.m3u8?md5=Ck7EtD_JuXkyIQ_JLUPdpg&expires=1759526359
 #EXTINF:-1 tvg-id="skys2" tvg-logo="https://i.imgur.com/bmk7yJs.png", Sky Sports Cricket
-https://d4.merichunidya.com:1686/hls/skyscric.m3u8?md5=YNeTM7iHC74z_0KYoyKy9w&expires=1759525111
+https://d4.merichunidya.com:1686/hls/skyscric.m3u8?md5=hMHMnom1HaDwNv61R5RKYw&expires=1759526359
 #EXTINF:-1 tvg-id="btsp4" tvg-logo="https://i.imgur.com/bmk7yJs.png", BT Sports 4
-https://d2.merichunidya.com:1686/hls/bbtespn.m3u8?md5=wFAwS005t9XdqNtFk4thbw&expires=1759525112
+https://d7.merichunidya.com:1686/hls/bbtespn.m3u8?md5=kE3iMG-ZqvMiAaJ1hzVpeA&expires=1759526360
 #EXTINF:-1 tvg-id="btsp3" tvg-logo="https://i.imgur.com/bmk7yJs.png", BT Sports 3
-https://d5.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=Or1wPq287ZcLHlvFB2X5iw&expires=1759525112
+https://d5.merichunidya.com:1686/hls/bbtsp3.m3u8?md5=75t6TkF58NM28x4DtSWBPA&expires=1759526360
 #EXTINF:-1 tvg-id="btsp1" tvg-logo="https://i.imgur.com/bmk7yJs.png", BT Sports 1
-https://d8.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=_keTc8tX90cVScw0Uh5ClQ&expires=1759525112
+https://d9.merichunidya.com:1686/hls/bbtsp1.m3u8?md5=7cY3MBFSRe-ipxIfIijMcA&expires=1759526360
 #EXTINF:-1 tvg-id="btsp2" tvg-logo="https://i.imgur.com/bmk7yJs.png", BT Sports 2
-https://d10.merichunidya.com:1686/hls/bbtsp2.m3u8?md5=x82fG6ykPEZpMqM3baNNng&expires=1759525111
+https://d7.merichunidya.com:1686/hls/bbtsp2.m3u8?md5=IOTbpWtCfyxDCewI-30fkw&expires=1759526359
 #EXTINF:-1 tvg-id="willowextra" tvg-logo="https://i.imgur.com/bmk7yJs.png", Willow 2
-https://d8.merichunidya.com:1686/hls/willowextra.m3u8?md5=kVKVk0VUDIlBjINdDJ--9A&expires=1759525111
+https://d8.merichunidya.com:1686/hls/willowextra.m3u8?md5=FuVpKGxaO9XLfQi9BxrojA&expires=1759526360
 #EXTINF:-1 tvg-id="fox501" tvg-logo="https://i.imgur.com/bmk7yJs.png", FOX Cricket 501
-https://d1.merichunidya.com:1686/hls/fox501.m3u8?md5=eZlSRdR42cwVV32hlOjzUQ&expires=1759525111
+https://d5.merichunidya.com:1686/hls/fox501.m3u8?md5=P0ZYJprnfkZvpdbOggw86Q&expires=1759526360
 #EXTINF:-1 tvg-id="skys1" tvg-logo="https://i.imgur.com/bmk7yJs.png", Sky Sports Main Event
-https://d2.merichunidya.com:1686/hls/skysme.m3u8?md5=LiAMiPu1AuIVEttmFAQzcQ&expires=1759525111
+https://d3.merichunidya.com:1686/hls/skysme.m3u8?md5=JsbcnGJQRN_Vl8DVBj7X2w&expires=1759526360
 #EXTINF:-1 tvg-id="viasp1" tvg-logo="https://i.imgur.com/bmk7yJs.png", Via Play Sports 1
-https://d9.merichunidya.com:1686/hls/premieruk.m3u8?md5=rXjSGEQEPfxPuF6WTzlfuQ&expires=1759525111
+https://d9.merichunidya.com:1686/hls/premieruk.m3u8?md5=V0oICQX9v7o9K_Dpv8QIFQ&expires=1759526359
 #EXTINF:-1 tvg-id="btsp5" tvg-logo="https://i.imgur.com/bmk7yJs.png", BT Sports 5
-https://d5.merichunidya.com:1686/hls/hdchnl10.m3u8?md5=uuhtZKQZ2Z69Gm74ID308Q&expires=1759525111
+https://d7.merichunidya.com:1686/hls/hdchnl10.m3u8?md5=TH_XGp1mtJIdgegZMBW1tQ&expires=1759526360
 #EXTINF:-1 tvg-id="tara" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Tara Sports 1
-https://d2.merichunidya.com:1686/hls/star1in.m3u8?md5=1GlL8EnfF793xyssUhIZvQ&expires=1759525111
+https://d1.merichunidya.com:1686/hls/star1in.m3u8?md5=E5Lbv1UoSjEaoxqBXvwJtA&expires=1759526359
 #EXTINF:-1 tvg-id="tara1hi" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Tara Sports Hindi
-https://d1.merichunidya.com:1686/hls/starhindi.m3u8?md5=sCNAmAFJbNJuPqXp67kQiQ&expires=1759525112
+https://d1.merichunidya.com:1686/hls/starhindi.m3u8?md5=t_noO0fUyGfdllH7jTzxbQ&expires=1759526360
 #EXTINF:-1 tvg-id="sky1nz" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Sky Sport 1 NZ
-https://d5.merichunidya.com:1686/hls/sky1nz.m3u8?md5=eyG3HBsSyhikL3IciPD_vg&expires=1759525111
+https://d6.merichunidya.com:1686/hls/sky1nz.m3u8?md5=hKhY1Xsekkqcn-fOOKMbSA&expires=1759526360
 #EXTINF:-1 tvg-id="sky2nz" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Sky Sport 2 NZ
-https://d1.merichunidya.com:1686/hls/sky2nz.m3u8?md5=pCQHr7InXNWgREdDbPOU9Q&expires=1759525112
+https://d9.merichunidya.com:1686/hls/sky2nz.m3u8?md5=Ill35J_23R3jvaAMl_VUxA&expires=1759526360
 #EXTINF:-1 tvg-id="sky3nz" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Sky Sport 3 NZ
-https://d2.merichunidya.com:1686/hls/sky3nz.m3u8?md5=WtCu0e_ozSqbVDwXcRQyZQ&expires=1759525111
+https://d6.merichunidya.com:1686/hls/sky3nz.m3u8?md5=a4muI5PlTOicTVhauv_Zuw&expires=1759526360
 #EXTINF:-1 tvg-id="sky4nz" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Sky Sport 4 NZ
-https://d6.merichunidya.com:1686/hls/sky4nz.m3u8?md5=FkcmLcmf4xLYpxpFk1URJg&expires=1759525111
+https://d2.merichunidya.com:1686/hls/sky4nz.m3u8?md5=QWUz60yVIj4b3e0YMKPpcA&expires=1759526360
 #EXTINF:-1 tvg-id="sky5nz" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Sky Sport 5 NZ
-https://d4.merichunidya.com:1686/hls/sky5nz.m3u8?md5=dcS0GgDvTimNA31gc_Q3IA&expires=1759525111
+https://d8.merichunidya.com:1686/hls/sky5nz.m3u8?md5=HWqHSTrY3tegVvNPGEgsCQ&expires=1759526360
 #EXTINF:-1 tvg-id="sky6nz" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Sky Sport 6 NZ
-https://d2.merichunidya.com:1686/hls/sky6nz.m3u8?md5=cKUnptCHVvnUlM6sAp9_SQ&expires=1759525112
+https://d9.merichunidya.com:1686/hls/sky6nz.m3u8?md5=Q6Z_1ShCeh2nBomjbv-a6g&expires=1759526360
 #EXTINF:-1 tvg-id="sky7nz" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Sky Sport 7 NZ
-https://d5.merichunidya.com:1686/hls/sky7nz.m3u8?md5=ANRQlcW-9JPo6tzmKBcZ3A&expires=1759525112
+https://d2.merichunidya.com:1686/hls/sky7nz.m3u8?md5=ipwPn2lE0i-Jp26u4NWfiQ&expires=1759526360
 #EXTINF:-1 tvg-id="sky8nz" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Sky Sport 8 NZ
-https://d4.merichunidya.com:1686/hls/sky8nz.m3u8?md5=u3TZufXeo487xKudFwNNYA&expires=1759525112
+https://d7.merichunidya.com:1686/hls/sky8nz.m3u8?md5=hbfB8FfCIKk0gGxO7YM9Jw&expires=1759526360
 #EXTINF:-1 tvg-id="laligauk" tvg-logo="https://i.imgur.com/bmk7yJs.png", LaLiga UK
-https://d7.merichunidya.com:1686/hls/laligauk.m3u8?md5=ytG3gx144i-uMSWtJeRA-w&expires=1759525112
+https://d3.merichunidya.com:1686/hls/laligauk.m3u8?md5=NFEjJcAmrJn2ThzQqhjIRw&expires=1759526360
 #EXTINF:-1 tvg-id="skysfotb" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Sky Sports Football
-https://d4.merichunidya.com:1686/hls/skysfott.m3u8?md5=JchVtaWJyb4Um1mmAsN1iQ&expires=1759525112
+https://d10.merichunidya.com:1686/hls/skysfott.m3u8?md5=GiOiVmaoXB-NHWLzKTkdUQ&expires=1759526360
 #EXTINF:-1 tvg-id="ch2" tvg-logo="https://i.imgur.com/bmk7yJs.png",  Premier Sports 2
-https://d4.merichunidya.com:1686/hls/hdchnl2.m3u8?md5=S7sjvNnlphATsH8fbekaaw&expires=1759525111
+https://d9.merichunidya.com:1686/hls/hdchnl2.m3u8?md5=U4qX47XpHAuetbNG9ewdpw&expires=1759526359
